@@ -58,6 +58,14 @@ There are 3 HTTP streams which you would follow and would see two attempts of up
 **Result:** The directory where all the uploaded files are: </reviews/uploads/>  
 
 
+**Q5. Which port, opened on the attacker's machine, was targeted by the malicious web shell for establishing unauthorized outbound communication?**
+
+**Step 1:** Use the filter http.request.method == POST and right-click to follow the HTTP stream
+
+**Step 2:** The port is displayed with the web shell that was targeted for establishing unauthorized connection with the attacker's machine.
+
+**Result:** The port is 8080
+
 
 
 
