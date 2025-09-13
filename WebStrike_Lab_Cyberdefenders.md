@@ -2,7 +2,7 @@
 
 **#WebStrike**
 
-**#Scenario
+**#SCENARIO
 A suspicious file was identified on a company web server, raising alarms within the intranet. The Development team flagged the anomaly, suspecting potential malicious activity. To address the issue, the network team captured critical network traffic and prepared a PCAP file for review.
 Your task is to analyze the provided PCAP file to uncover how the file appeared and determine the extent of any unauthorized activity.**
 
@@ -65,6 +65,7 @@ There are 3 HTTP streams which you would follow and would see two attempts of up
 **Step 2:** The port is displayed with the web shell that was targeted for establishing unauthorized connection with the attacker's machine.
 
 **Result:** The port is 8080
+
 
 
 
