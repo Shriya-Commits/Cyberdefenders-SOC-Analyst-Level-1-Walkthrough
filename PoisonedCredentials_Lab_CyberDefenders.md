@@ -2,17 +2,14 @@
 
 **#Poisoned Credentials**
 
-**#SCENARIO**
-
+**#SCENARIO**<br>
 **Your organization's security team has detected a surge in suspicious network activity.There are concerns that LLMNR (Link-Local Multicast Name Resolution) and NBT-NS (NetBIOS Name Service) poisoning attacks may be occurring within your network. These attacks are known for exploiting these protocols to intercept network traffic and potentially compromise user credentials. Your task is to investigate the network logs and examine captured network traffic.**
 
-**#LINK LOCAL MULTICAST NAME RESOLUTION (LLMNR)**
-
+**#LINK LOCAL MULTICAST NAME RESOLUTION (LLMNR)**<br>
 **LLMNR is a network protocol that allows devices on a loacl network to resolve hostnames to IP addresses without a DNS server when a DNS fails. It is designed for small, local networks where a DNS server is not functioning or unavailable.**
 
-**#NetBIOS Name Service (NBT-NS)**
-
-**NetBIOS Name is a human-readable name used to identfy devices on the network. NBT-NS is the sevicesthat works like DNS but for a limited scope in older Microsoft based networks.**
+**#NetBIOS Name Service (NBT-NS)**<br>
+**NetBIOS Name is a human-readable name used to identfy devices on the network. NBT-NS is the service that works like DNS but for a limited scope in older Microsoft based networks.**
 
 **Q1. In the context of the incident described in the scenario, the attacker initiated their actions by taking advantage of benign network traffic from legitimate machines. Can you identify the specific mistyped query made by the machine with the IP address 192.168.232.162?**
 
@@ -26,4 +23,4 @@
 
 **Q2. We are investigating a network security incident. To conduct a thorough investigation, We need to determine the IP address of the rogue machine. What is the IP address of the machine acting as the rogue entity?**
 
-Step 1: 
+ 
