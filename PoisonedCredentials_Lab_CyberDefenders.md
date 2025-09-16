@@ -23,4 +23,32 @@
 
 **Q2. We are investigating a network security incident. To conduct a thorough investigation, We need to determine the IP address of the rogue machine. What is the IP address of the machine acting as the rogue entity?**
 
+**Step 1:** Write the query filtering for LLMNR as llmnr
+
+**Step 2**: The machine that initiated the attack sends an NBNS response in the previous query.
+
+**Result**: The rogue machine IP address is 192.168.232.215
+
+**#There are 2 machines that received the responses.** 
+
+**Q3. As part of our investigation, identifying all affected machines is essential. What is the IP address of the second machine that received poisoned responses from the rogue machine?**
+
+**Result:** The second machine has the iP address 192.168.232.176
+
+**Q4. We suspect that user accounts may have been compromised. To assess this, we must determine the username associated with the compromised account. What is the username of the account that the attacker compromised?**
+
+**Step 1:** The query filter to look up the account is ntlmssp.auth.username
+
+**Step 2:** Double click the result and the username is displayed
+
+**Result:** The username is janesmith
+
+**Q5. As part of our investigation, we aim to understand the extent of the attacker's activities. What is the hostname of the machine that the attacker accessed via SMB?**
+
+**Step 1:** The query filter to look up the account is ntlmssp.auth.hostname
+
+**Step 2:** Double click the result and the host is displayed
+
+**Result:** The host name is AccountingPC
+
  
